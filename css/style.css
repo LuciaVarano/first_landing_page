@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(188, 188, 219);
+}
+
+/* Top Bar Styles */
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+    margin-bottom: 25px;
+}
+
+.social-media img{
+    padding: 0px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.top-bar p{
+    color: white;
+    font-size: 14px;
+}
+
+.social-media img:hover{
+    transform: scale(1.1);
+}
+
+/* Navegation */
+
+nav{
+    padding:0px 40px 0px 0px ;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 35px 5px;
+    gap: 20px;
+    justify-content: right;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a:hover{
+    color: #2daed1; 
+}
+
+/* Hero */
+.hero{
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.15)),
+    url("/img/hero_image.jpg") no-repeat center center/cover;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    font-size: 40px;
+    color: white;
+}
+
+
+/* About Us */
+.about-us{
+    display: flex;
+    margin: 5vh auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.text-about-us{
+    padding: 40px 10px;
+    line-height: 24px;
+}
+
+.text-about-us p{
+    color: #333;
+}
+
+.text-about-us h3{
+    color: #36393e;
+    padding-bottom: 10px;
+}
+
+.about-us-information{
+    max-width: 700px;
+    border-top: #33333342 3px solid;
+    padding-top: 20px;
+}
+
