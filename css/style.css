@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: Monstserrat;
 }
 
 header{
@@ -55,7 +55,7 @@ a{
     cursor: pointer;
     transition: all 0.3s ease;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 a:hover{
@@ -130,5 +130,6 @@ a:hover{
 
 .type-groups-info h2 span{
     font-weight: 100;
+    color: #333;
 }
 
