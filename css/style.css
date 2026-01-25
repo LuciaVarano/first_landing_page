@@ -197,8 +197,85 @@ a:hover{
     background-color: #22242a;
     color: white;
     padding: 40px 30px;
+    gap: 10px;
 }
 
 .pre-footer-info span{
     color: #5a5a5a;
 }
+
+.pre-footer-info{
+    flex: 1;
+    line-height: 25px;
+}
+
+.pre-footer-info h3{
+    padding-bottom: 15px;
+}
+
+.pre-footer-info p{
+    padding-bottom: 15px;
+}
+
+span.bold{
+    font-weight: 600;
+    color: white;
+}
+
+.pre-footer-info:first-child img{
+    background-color: #5e5e5e56;
+    padding: 2px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.pre-footer-info:first-child img:hover{
+   transform: scale(1.1);
+}
+
+
+.pre-footer-info:nth-child(2) div{
+   display: flex;
+   flex-direction: column;
+   border-bottom: #4d4d4d56 1px solid;
+   margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: #3d3d3d7a 8px solid;
+    padding: 20px;
+    max-width: 300px;
+}
+
+form button{
+    background-color: #2daed1;
+    color: white;
+    padding: 10px;
+}
+
+form input{
+    border: #3d3d3d7a 3px solid;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form p{
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #35363b;
+}
+
+footer p{
+    color: #757575;
+    font-size: 12pxpx;
+}
+
